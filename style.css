@@ -32,6 +32,14 @@ a:hover{
   text-decoration: underline;
   color: #889696;
 }
+.card{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 40 auto;
+}
 @media(max-width: 1500px){
 .card{
   background: white;
