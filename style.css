@@ -1,0 +1,97 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700i');
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #EOE2DB;
+  color: #40476D;
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 200px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  color: #B8BDB5;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #B8BDB5;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #889696;
+}
+@media(max-width: 1500px){
+.card{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 40 auto;
+}
+}
+@media(max-width: 720px){
+.card{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 500px;
+  margin: 40 auto;
+}
+}
+@media(max-width: 540px){
+.card{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 300px;
+  margin: 40 auto;
+}
+}
+.text-center{
+text-align: center;
+}
+
+.btn-blue{
+  background-color: #40476D;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  margin: 40px;
+}
+
+.btn-blue:hover{
+  background-color: #415FBA;
+  color: white;
+  text-decoration: none
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #B8BDB5;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+  color: #40476D;
+}
+.text-style{
+  font-style: italic;
+}
